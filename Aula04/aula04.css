@@ -1,0 +1,8 @@
+body {
+    background-color: cadetblue;
+}
+div {
+    background-color: darkcyan;
+    color: antiquewhite;
+    border: darkslateblue 5px silver;
+}

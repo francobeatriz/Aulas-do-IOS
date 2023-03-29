@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Aula Forms</title>
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <header>
+        <h1>Lista de jogos favoritos</h1>
+        </header>
+        <article>
+        <form method="post" id="fContato" action="mailto:beatrizfranco0104@gmail.com"></form>
+        </form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required="required"/> 
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome"/>
+            <br> <br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" size="57"
+            placeholder="exemplo.de.email@gmail.com"/>
+            <br> <br>
+        <!-- utilizando o elemento radio e checkbox -->
+        <!-- radio= uma opção / checkbox= mais de uma -->
+            <p>Qual jogo você mais jogou?</p>
+
+            <label for="op1">Sonic</label>
+            <input type="radio" name="ljogos" id="op1"/>
+            <br><br>
+
+            <label for="op2">Super Mario World</label>
+            <input type="radio" name="ljogos" id="op2">
+            <br><br>
+
+            <label for="op3">GOD 3</label>
+            <input type="radio" name="ljogos" id="op3">
+            <br><br>
+        <!-- name tem que ser igual em todos -->
+            <p>Qual Plataforma você joga?</p>
+
+            <label for="po1">Playstation</label>
+            <input type="checkbox" name="lplataforma" id="po1"> 
+            <br> <br>
+
+            <label for="po2">Xbox</label>
+            <input type="checkbox" name="lplataforma" id="po2"> 
+            <br><br>
+
+            <label for="po3">PC</label>
+            <input type="checkbox" name="lplataforma" id="po3"> 
+            <br><br>
+
+            <label for="po4">Nintendo</label>
+            <input type="checkbox" name="lplataforma" id="po4"> 
+            <br><br><br>
+            
+            <!-- Lista de jogos elemento select -->
+            <label for="jogos">Selecione um jogo da lista:</label>
+            <select name="jogos" id="jogos">
+                <option value="slc" disabled selected>Selecione um jogo</option>
+                <option value="GTAV">GTA V</option>
+                <option value="NFS-4">NFS-4</option>
+                <option value="Candy_Crush">Candy Crush</option>
+                <option value="colheita_f">Colheita Feliz</option>
+             </select>
+            <br> <br> <br>
+            <!-- Auto-complete tag input/datalist-->
+
+            <label for="dlist">Sua cidade</label>
+            <input autocomplete="on" list="cidade" id="dlist" name="dlist">
+            <datalist id="cidade">
+                <option value="São Paulo"></option>
+                <option value="Osasco"></option>
+                <option value="Guarulhos"></option>
+                <option value="Grajaú"></option>
+            </datalist>
+            <br> <br> <br>
+            0
+            <input type="range" id="valor_01"  name="valor_01"/> 100
+
+            <br><br><br>
+            
+            
+            <label for="sugestao">Deixe aqui sua sugestão:</label> <br>
+            <textarea name="sugestao" id="sugestao"  cols="40" rows="10" 
+            placeholder="sugestão"></textarea>
+            <br><br>
+
+            <input type="submit" value="Enviar"/>
+        </form>
+        </article>
+    </body>
+</html>
