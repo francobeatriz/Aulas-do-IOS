@@ -1,0 +1,16 @@
+body{
+    background-color: #f8cfcf;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #D98B99;
+    color: #591E29;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #D98B99;
+    color: #591E29;
+    font-size: 50px ;
+}
