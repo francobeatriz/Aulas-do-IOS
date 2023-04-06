@@ -1,0 +1,24 @@
+body{
+    background-color:#2C4001;
+    color:#BF9A2A ;
+    text-align: center;
+    background-image: url('thelast5.png');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover; height: 1060px;
+ 
+}
+h1{
+    background-color: #9BA64B;
+    color:#8C583A
+}
+img{
+    height: 400px;
+    width: 700px;
+    border:solid 6px;
+    background-position;
+}
+figcaption{
+    color:#A68572
+}
+
