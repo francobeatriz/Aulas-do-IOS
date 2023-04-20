@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+img {
+    width: 300px;
+    float: right;
+}
+@media (max-width: 650px) {
+    #quebra {
+        display: none;
+    }
+    h1,
+    h2,
+    p {
+        font-size: 1.4em;
+    }
+}

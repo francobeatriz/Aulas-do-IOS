@@ -1,0 +1,9 @@
+@charset "UTF-8";
+body {
+    font-family: "Tahoma", sans-serif;
+    background: #333;
+    color: #fff;
+}   
+h2 {
+    text-align: center
+}

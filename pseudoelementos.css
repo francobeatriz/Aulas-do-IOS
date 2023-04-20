@@ -1,0 +1,10 @@
+@charset "UTF-8";
+.p1::after{
+    content: " - Novo conteúdo";
+}
+.p2::before{
+    content: " - Novo conteúdo ";
+}
+.p3::selection{
+    background-color: blue;
+}

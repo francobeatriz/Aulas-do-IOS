@@ -1,0 +1,27 @@
+input:focus{
+    background-color: pink;
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color: red;
+}
+a:active{
+    color: grey;
+}
+.col {
+    float: left;
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box
+}
+.price-box {
+    background: #fff;
+    color: #555;
+    list-style-type: none;
+    border: 1px solid #555;
+    margin: 0;
+    padding: 0;
+}
+   
