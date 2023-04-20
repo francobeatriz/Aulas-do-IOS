@@ -1,0 +1,32 @@
+.container {
+    padding: 10px;
+    height: 700px;
+    width: 700px;
+    border: solid 1px red;
+    display: flex;
+    background-color: rgb(201, 255, 255); 
+    justify-content: center;
+    align-items: center;
+}
+.item1 {
+    height: 150px;
+    width: 150px;
+    background-color: cadetblue;
+    border: solid 1px black;
+    margin: 10px;
+    
+}
+.item2 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(235, 146, 227);
+    border: solid 1px black;
+    margin: 10px;
+}
+.item3 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(137, 235, 252);
+    border: solid 1px black;
+    margin:10px;
+}

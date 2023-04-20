@@ -1,0 +1,25 @@
+div {
+    text-align: center;
+    background-color: silver;
+}
+img {
+    border: solid 1px black;
+    border-radius: 15px;
+}
+.mov:hover {
+    animation: aula 1s;
+}
+@keyframes aula {
+    0% {
+        transform: translateY(0px);
+    }
+    40% {
+        transform: translateY(30px);
+    }
+    70% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
