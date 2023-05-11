@@ -35,9 +35,36 @@
 // console.log(numeros2)
 // console.log(typeof numeros2)
 
-const frutas = ["Banana","Morango","Mamão","Abacaxi","Abacate"]
-console.log(frutas.length);
+// const frutas = ["Banana","Morango","Mamão","Abacaxi","Abacate"]
+// console.log(frutas.length);
 
-for (let f = 0; f < frutas.length; f++) 
-console.log(`Eu gosto de: ${frutas[f]} \n`);
+// for (let f = 0; f < frutas.length; f++) 
+// console.log(`Eu gosto de: ${frutas[f]} \n`);
 
+// let nomes = ["Ermeson","Jaqueline","Luan","Adriana"];
+// nomes [4] = 'Bia'
+// console.log(nomes)
+
+// push - insere um elemento | pop - remove o ultimo elemento
+
+// console.log(nomes);
+let nomes = ["Ermeson","Jaqueline","Luan","Adriana"];
+// nomes.pop ()
+// console.log(nomes);
+// nomes.push('Bia') 
+// console.log(nomes);
+// nomes.push('Luan')
+// console.log(nomes);
+
+//inserir valores e remover valor no inicio do array
+
+console.log(nomes);
+nomes.shift();
+console.log(nomes);
+nomes.unshift("Dayane");
+console.log(nomes)
+
+//delete - apagar um elemento
+
+delete nomes[2];
+console.log(nomes); 
