@@ -33,7 +33,7 @@
 // document.body.appendChild(criandop);
 
 
-/////////////////// Método getElementById ///////////////////
+/////////////////// getElementById ///////////////////
 
 let title = document.getElementById("tituloPrin")
 
@@ -41,7 +41,30 @@ title.innerHTML = "Olá aluno!";
 title.style.color = "red"
 title.style.textAlign = "center"
 
-let paragraph = document.getElementById("para1")
+// let paragraph = document.getElementById("par1")
 
-paragraph.innerHTML = "SEI LÁ";
-paragraph.style.textAlign = "justify"
+// paragraph.innerHTML = "SEI LÁ";
+// paragraph.style.textAlign = "justify"
+
+//////////////////////////////////////////////////////////
+
+const mudarCor = () => {
+    let valorH2 = document.getElementById ("tituloSec")
+
+    valorH2.style.color = "pink"
+    valorH2.style.background = "green"
+};
+
+const mudarCor2 = () => {
+    let valorH2 = document.getElementById ("tituloSec")
+
+    valorH2.style.color = "black"
+};
+
+
+///////////////// getElementsByClassName ///////////////
+
+// let par = document.getElementsByClassName("item")
+// par[0].style.color = "blue"
+
+//////////////////////////////////////////////////////////
